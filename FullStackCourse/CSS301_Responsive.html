@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page Experiment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            padding:0;
+            margin:0px;
+        }
+        #layout{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        #header{
+            flex-basis:100%;
+            border-bottom: 1px solid #aaa;
+            padding: 20px;
+            font-size: 40px;
+            font-family: sans-serif;
+            position: sticky;
+        }
+        #nav{
+            flex-basis:100%;
+            border-bottom: 1px solid #aaa;
+            padding:20px;
+        }
+        #sidebar{
+            flex-basis:20%;
+            border-right:1px solid #aaa;
+            padding:20px;
+            border-bottom:1px solid #aaa;
+        }
+        #content{
+            flex-basis:80%;
+            padding:20px;
+            border-bottom: 1px solid #aaa;
+        }
+        @media(max-width:640px){
+            #sidebar,#content{
+                flex-basis:100%;
+                border-right:0;
+            }
+        }
+        @media(max-width:475px){
+            #sidebar{
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="layout">
+        <div id="header">
+            Welcome to this Experiment with FlexBox
+        </div>
+        <div id="nav">
+            Navigation in here
+        </div>
+        <div id="sidebar">
+            Sidebar in here
+        </div>
+        <div id="content">
+            Content in here
+        </div>
+    </div>
+    
+</body>
+</html>
