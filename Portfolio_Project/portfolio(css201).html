@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK.com</title>
+    <link rel="icon" type="image/.png" href="Screenshot 2024-05-29 115316.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding:0px;
+            font-family:"Montserrat",sans-serif;
+        }
+        a{
+            text-decoration: None;
+            color:aliceblue;
+        }
+        a#button:hover{
+            background-color: aliceblue;
+            color:#15181A;
+        }
+        a:hover{
+            color:deepskyblue;
+        }
+        a#menu:hover{
+            text-decoration: underline;
+            color:deepskyblue;
+            text-underline-offset: 10px;
+        }
+        .oddview{
+            background-color: #15181A;
+            color:aliceblue;
+            height: 600px;
+            padding: 30px;
+        }
+        .evenview{
+            background-color: #21272A;
+            color:aliceblue;
+            height: 600px;
+            padding: 30px;
+        }
+        #home{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #header{
+            height: 40px;
+            flex-basis: 100%;
+            padding: 30px;
+            font-size: 35px;
+        }
+        #containertext{
+            flex-basis: 30%;
+            text-align: left;
+            padding: 20px;
+            margin: 10px;
+        }
+        #containerimage{
+            flex-basis: 35%;
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="oddview" id="home">
+        <div id="header">
+            <b>&lt;KK</b><p style="color :deepskyblue; display: inline;"><b>.&gt;</b></p>
+            <a id="menu" href="#home" style="display:inline-block; font-size:22px; transform:translateX(650px);">Home</a>
+            <a id="menu" href="https://stamfordstroll.blogspot.com/" style="display:inline-block; font-size:22px; transform:translateX(690px)">Blog</a>
+            <a id="menu" href="#page2" style="display:inline-block; font-size: 22px;transform: translateX(730px)">Services</a>
+            <a id="menu" href="" style="display:inline-block; font-size: 22px;transform: translate(770px);">Contact</a>
+        </div>
+        <div id="containertext">
+            <p style="font-size: 50px;display: inline"><b>Keshav<br>Kannan</b></p><p style="display:inline; font-size: 60px; color:deepskyblue;"><b>.</b></p>
+            <div style="border-bottom:3px solid deepskyblue; width:40px; display:block; height:15px"></div>
+            <div style="display:block; transform: translateY(20px);"><a href="https://www.instagram.com/kkeshav_2711/"> Instagram </a>|<a href="https://www.linkedin.com/in/k-keshav-951024261/"> LinkedIn </a>|<a href="https://github.com/KKeshav1101"> Github </a></div>
+            <a id="button" href="" style="display:inline-block; border: 2px solid deepskyblue; color:deepskyblue; padding:10px; margin: 40px;">CONTACT ME</a>
+        </div>
+        <div id="containerimage" style="border-radius: 25% 45% 25% 45%; border-spacing: 10px; background-color: #181e1f;transform: translateX(-95px) translateY(-22px);box-shadow: 5px 5px 5px rgb(23, 33, 36);">
+            <img src="DSC_0014-removebg.png" width="325px" height="488px" style="transform: translateX(90px) translateY(16px);">
+        </div>
+        <div style="display: inline;
+                    margin:10px;
+                    padding:10px;
+                    color:aliceblue;
+                    text-align: left;">
+            <h5 style="color:deepskyblue">INTRODUCTION</h5>
+            <h2>Student<br>Fullstack Developer<br>Data Scientist<br>AI/ML Enthusiast</h2>
+            <p>A 3rd year Computer Science<br>Student at SASTRA Universrity<br>and the Head of SALVO-AICS<br>(AI Club of SASTRA)</p>
+            <a href="https://www.linkedin.com/in/salvo-sastra/?originalSubdomain=in" style="color: dodgerblue;">Learn more about SALVO &gt;</a>
+        </div>
+    </div>
+    <div class="evenview" id="page2">
+        <h5 style="color:deepskyblue; text-align: center; margin-top: 30px;">SERVICES</h5>
+        <h3 style="text-align: center;">What I am Great At</h3>
+        <p style="text-align: center;">Strong Analytical skills, mathematical knowledge,<br>logical reasoning gives me the edge in development,<br> enabling me to quickly adapt and learn<br> various things such as Object Oriented Analysis<br>and Design as well as Data Science.</p>
+        <table border="0" width="100%" style="text-align: center;">
+            <tr>
+                <td colspan="25%" style="border-radius:5% 5% 5% 5%;background-color: #15181A; margin:20px;padding:20px;"><img src="557488.png" width="100px" height="100px"><br><br><br>Content<br>Writing</td>
+                <td colspan="25%" style="border-radius:5% 5% 5% 5%;background-color: #15181A; margin:20px;padding:20px;"><img src="521193-200.png" width="100px" height="100px"><br><br><br>Fullstack<br>Development</td>
+                <td colspan="25%" style="border-radius:5% 5% 5% 5%;background-color: #15181A; margin:20px;padding:20px;"><img src="aiicon.png" width="100px" height="100px"><br><br><br>AI/ML</td>
+                <td colspan="25%" style="border-radius:5% 5% 5% 5%;background-color: #15181A; margin:20px;padding:20px;"><img src="graph.pnh.png" width="100px" height="100px"><br><br><br>Data Science<br>with Python<br></td>
+            </tr>
+            <tr style="transform: translateY(50%);">
+                <td colspan="25%" style="color:deepskyblue; margin:20px;">25+ Articles</td>
+                <td colspan="25%" style="color:deepskyblue; margin:20px;">Udemy certified</td>
+                <td colspan="25%" style="color:deepskyblue; margin:20px;">Udemy certified</td>
+                <td colspan="25%" style="color:deepskyblue; margin:20px;">datacamp certified</td>
+            </tr>
+        </table>
+    </div>
+    <div class="oddview"></div>
+    <div class="evenview"></div>
+    <div class="oddview"></div>
+</body>
+</html>
