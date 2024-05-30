@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        while(true){
+            let number = prompt("Guess the number :");
+            number=Number(number);
+            const randomNumber= Math.ceil(Math.random()*10);
+            if(number==randomNumber){
+                alert('you win');;
+                break;
+            }
+            else{
+                console.log("You guessed",number,"but the right number was ", randomNumber);
+            }
+        }
+    </script>
+</body>
+</html>
